@@ -3,7 +3,7 @@ Serverless Telegram bot for multiple people to send notification messages.
 
 > 可供多人（群组）发送通知消息的 telegram 机器人 api 。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/wangzhuolin/tg-warn-bot)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwangzhuolin%2Ftg-warn-bot&env=BOT_TOKEN,TCKEY&envDescription=set%20%60BOT_TOKEN%60%20to%20%60telegram%20api%20token%60%2C%20set%20%60TCKEY%60%20a%20random%20string%20!)
 
 ## 直接试用我搭建的机器人
 
@@ -46,7 +46,7 @@ vercel
 
 ### 3. Setting up the Telegram webhook
 ````
-curl --location --request POST https://api.telegram.org/bot<YOUR-TELEGRAM-TOKEN>/setWebhook --header 'Content-type: application/json' --data '{"url": "https://project-name.username.vercel.app/api/index"}'
+curl --location --request POST https://api.telegram.org/bot<YOUR-TELEGRAM-TOKEN>/setWebhook --header 'Content-type: application/json' --data '{"url": "https://<Project Name>.vercel.app/api/index"}'
 ````
 
 # Authors
