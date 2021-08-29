@@ -7,13 +7,13 @@ Serverless Telegram bot for multiple people to send notification messages.
 
 ## 直接试用我搭建的机器人
 
-1. 添加 @tgwarn_bot
+1. 添加 @tg_warn_bot
 2. 发送 /sendkey 获得 key 和 url
 3. 通过 url 发送请求即可
 
 ## Example
 
-1. add @tgwarn_bot in telegram
+1. add @tg_warn_bot in telegram
 2. `/sendkey` to get key & url
 3. send request via url 
 
