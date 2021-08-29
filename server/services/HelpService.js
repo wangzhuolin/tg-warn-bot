@@ -23,7 +23,7 @@ class HelpService {
     async sendkey() {
         try {
             const sendkey = this.id + 'T' + md5(TCKEY + this.id);
-            const site_url = String(VERCEL_URL).split("-")[0] + '.vercel.app';
+            const site_url = VERCEL_URL;
             let message = `Your sendkey is 🔑 ${sendkey} \n 
             🚀 Use follow url to send message : \n 
             ${site_url}/send?sendkey=<sendkey>&text=<text>`;
